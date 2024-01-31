@@ -1,0 +1,21 @@
+@import "./vendor/normaliz";
+@import "./abstracts/variables";
+@import "./base/tupography";
+@import "./base/reset";
+@import "./components/modal";
+@import "./components/button";
+@import "./layout/header";
+@import "./layout/aside";
+@import "./layout/footer";
+@import "./pages/home";
+@import "./pages/chekaut";
+@import "./pages/detail.scss";
+
+.container {
+  width: 1440px;
+  height: 3950px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #fafafa;
+}

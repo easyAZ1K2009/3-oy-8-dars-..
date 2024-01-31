@@ -1,0 +1,29 @@
+@mixin reset {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@mixin color {
+  $orange-color: #d87d4a;
+  $black-color: #000;
+  $Dark-black-color: #101010;
+  $White-color: #fff;
+  $grey-color: #f1f1f1;
+  $Dark-White-color: #fafafa;
+  $Saloman-color: #fbaf85;
+  $backround-color1: orange-color #d87d4a;
+  $backround-color2: black-color#000;
+  $background-color3: Saloman-color #fbaf85;
+  $background-color4: White-color #fff;
+  $background-color5: grey-color #f1f1f1;
+  $background-color6: Dark-black-color #101010;
+}
+
+@mixin fonts {
+  $p-font-family: "Manrope" sans-serif;
+  $p-font-weight: 400;
+  $p1-font-weight: 400;
+  $p2-font-weight: 400;
+  $h-font-weight: 700;
+}

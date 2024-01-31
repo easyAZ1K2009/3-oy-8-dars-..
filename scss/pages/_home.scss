@@ -1,0 +1,369 @@
+.header__container {
+  width: 1440px;
+  height: 28px;
+  padding-top: 35px;
+  margin-right: auto;
+  margin-left: auto;
+  @include color($background-color2);
+}
+
+.header--text {
+  width: 1109.833px;
+  height: 28px;
+  display: flex;
+  gap: 197px;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header--text1 {
+  width: 143px;
+  height: 25px;
+  margin-left: 65px;
+}
+
+.header--text2 {
+  display: inline-flex;
+  padding-right: 2px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 34px;
+}
+
+.header--text2 a {
+  @include color($White-color);
+  @include fonts($p-font-family);
+  @include fonts($h-font-weight);
+  font-size: 13px;
+  font-style: normal;
+  line-height: 25px; /* 192.308% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  @include color($orange-color);
+  @include fonts($h-font-weight);
+  font-size: 13px;
+  font-style: normal;
+  line-height: 25px; /* 192.308% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+
+.header--text3 {
+  width: 23.333px;
+  height: 20px;
+}
+
+.linia {
+  width: 700px;
+  height: 1px;
+  opacity: 0.2;
+  @include color($backround-color1);
+}
+
+.hero__container {
+  width: 1440px;
+  height: 661px;
+  @include color($background-color6);
+  background-image: url("../img/img2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.hero--text {
+  width: 398px;
+  height: 346px;
+  padding-top: 128px;
+  margin-right: 46.6;
+  margin-bottom: 158px;
+  margin-left: 165px;
+}
+.p2 {
+  width: 349px;
+  @include color($White-color);
+  @include fonts($p-font-family);
+  @include fonts($p2-font-weight);
+  font-size: 15px;
+  font-style: normal;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.75;
+}
+
+.p1 {
+  @include color($White-color);
+  @include fonts($p-font-family);
+  @include fonts($p1-font-weight);
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  opacity: 0.4964;
+}
+
+h1 {
+  @include color($White-color);
+  @include fonts($p-font-family);
+  @include fonts($h-font-weight);
+  font-size: 56px;
+  font-style: normal;
+  line-height: 58px; /* 103.571% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+p {
+  width: 349px;
+  @include color($White-color);
+  @include fonts($p-font-family);
+  @include fonts($p-font-weight);
+  font-size: 15px;
+  font-style: normal;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.75;
+}
+
+button {
+  width: 160px;
+  height: 48px;
+  @include color($White-color);
+  @include color($background-color1);
+}
+
+button:hover {
+  transition: all 0.5s;
+  border-radius: 10px;
+  @include color($black-color);
+  transform: scale(1.5);
+  box-shadow: #fff;
+  @include color($background-color);
+}
+
+.hero2__container {
+  width: 1110px;
+  height: 284px;
+  display: flex;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main__continer {
+  width: 1247.239px;
+  height: 863px;
+  margin-top: 70px;
+}
+
+.main--text {
+  width: 1110px;
+  height: 320px;
+  margin-top: 70px;
+  margin-left: 170px;
+  padding-top: 90px;
+  padding-left: 70px;
+  background-image: url("../img/home/desktop/image-speaker-zx7.jpg");
+  background-repeat: no-repeat;
+}
+
+h3 {
+  @include color($black-color);
+  @include fonts($p-font-family);
+  @include fonts($h-font-weight);
+  font-size: 28px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.b2 {
+  @include color($black-color);
+  @include fonts($p-font-family);
+  @include fonts($h-font-weight);
+  @include color($background-color4);
+  width: 160px;
+  height: 48px;
+  font-size: 13px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.b2:hover {
+  @include color($White-color);
+}
+
+.pusks__container {
+  width: 1110px;
+  height: 320px;
+  display: flex;
+  gap: 35px;
+  margin-left: 170px;
+}
+
+.pusk1 {
+  width: 540px;
+  height: 320px;
+}
+
+.pusk2 {
+  width: 540px;
+  height: 320px;
+  border-radius: 8px;
+  @include color($background-color);
+}
+
+.pusk--text {
+  display: inline-flex;
+  padding-right: 2px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  padding-top: 110px;
+  padding-right: 198px;
+  padding-bottom: 101px;
+  padding-left: 95px;
+}
+
+.about__container {
+  width: 1110px;
+  height: 588px;
+  display: flex;
+  gap: 125px;
+  margin-top: 70px;
+  margin-right: auto;
+  margin-left: 170px;
+}
+
+.about--text {
+  display: flex;
+  width: 445px;
+  height: 295px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  padding-top: 120px;
+}
+
+.h2 {
+  @include color($black-color);
+  @include fonts($p-font-family);
+  @include fonts($h-font-weight);
+  width: 445px;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 44px; /* 110% */
+  letter-spacing: 1.429px;
+  text-transform: uppercase;
+}
+
+p {
+  @include color($black-color);
+  @include fonts($p-font-family);
+  @include fonts($h-font-weight);
+  width: 445px;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.5;
+}
+
+.footer__container {
+  width: 1440px;
+  height: 400px;
+  margin-top: 100px;
+  @include color($background-color6);
+}
+
+.footer--text1 {
+  width: 1300px;
+  height: 25px;
+  display: flex;
+  gap: 681px;
+  padding-top: 75px;
+  margin-left: 100px;
+}
+
+.footer--text1--img {
+  gap: 681px;
+}
+
+.footer--text1--text {
+  gap: 35px;
+  display: flex;
+}
+
+.footer--text1--text a {
+  @include color($White-color);
+  @include fonts($p-font-family);
+  @include fonts($h-font-weight);
+  display: flex;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 25px; /* 192.308% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer--text1--text a:hover {
+  @include color($orange-color);
+}
+
+.footer--text2 {
+  display: flex;
+}
+
+.footer--text2--text {
+  @include color($White-color);
+  @include color($p-font-family);
+  @include color($p-font-weight);
+  width: 540px;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 25px; /* 166.667% */
+
+  opacity: 0.5;
+  padding-top: 36px;
+  padding-left: 100px;
+}
+
+.footer--text2--img {
+  padding-top: 190px;
+  margin-right: 165px;
+  margin-left: auto;
+}
+
+.footer--text3 {
+  @include color($White-color);
+  @include fonts($p-font-family);
+  @include fonts($h-font-weight);
+  width: 540px;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 25px; /* 166.667% */
+
+  opacity: 0.5;
+  padding-top: 10px;
+  padding-right: auto;
+  padding-left: 100px;
+}
+
+h6 {
+  @include fonts($p-font-family);
+  @include fonts($h-font-weight);
+  width: 540px;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 25px; /* 166.667% */
+
+  opacity: 0.5;
+}
